@@ -1,0 +1,19 @@
+{
+  "name": "ecrivo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prep": "node prep.js",
+    "sync": "node prep.js && npx cap sync"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/cli": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/filesystem": "latest",
+    "@capacitor/share": "latest",
+    "html2canvas": "1.4.1",
+    "jspdf": "2.5.1",
+    "jszip": "3.10.1"
+  }
+}
