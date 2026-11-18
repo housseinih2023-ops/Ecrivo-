@@ -7,7 +7,10 @@
     "sync": "node prep.js && npx cap sync"
   },
   "dependencies": {
+    "@capacitor-community/admob": "latest",
     "@capacitor/android": "latest",
+    "@capacitor/app": "latest",
+    "@capacitor/browser": "latest",
     "@capacitor/cli": "latest",
     "@capacitor/core": "latest",
     "@capacitor/filesystem": "latest",
