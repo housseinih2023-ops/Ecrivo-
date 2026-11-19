@@ -20,6 +20,12 @@ jobs:
       - run: npm install
       - run: npx cap init Ecrivo com.ecrivo.app --web-dir=www || true
       - run: npx cap add android
+      - run: |
+          mkdir -p www
+          if [ -f index.html ] && [ ! -f www/index.html ]; then cp index.html www/; fi
+          cp *.css www/ 2>/dev/null || true
+          cp *.js www/ 2>/dev/null || true
+          ls -la www
       - run: npx cap sync android
       - run: cd android && chmod +x gradlew && ./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
