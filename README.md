@@ -1,2 +1,0 @@
-# Ecrivo-
-Solution for All 
