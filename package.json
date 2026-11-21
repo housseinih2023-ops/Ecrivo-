@@ -17,6 +17,9 @@
     "@capacitor/share": "latest",
     "html2canvas": "1.4.1",
     "jspdf": "2.5.1",
-    "jszip": "3.10.1"
+    "jszip": "3.10.1",
+    "mammoth": "1.6.0",
+    "pdfjs-dist": "3.11.174",
+    "qrcode-generator": "1.4.4"
   }
 }
